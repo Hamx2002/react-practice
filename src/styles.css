@@ -1,4 +1,37 @@
-.App {
-  font-family: sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.advice {
+  color: #333;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
   text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  margin: 15px 0;
+  padding: 10px 16px;
+  font-size: 16px;
+  background: #4b7bec;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3867d6;
+}
+
+.answer {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
