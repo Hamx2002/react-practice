@@ -12,7 +12,9 @@ export default function App() {
   return (
     <>
       <h1 className="advice">{advice}</h1>
-      <button className="btn" onClick={getAdvice}>click me for advice</button>
+      <button className="btn" onClick={getAdvice}>
+        click me for advice
+      </button>
       <p className="answer">
         1&2.diffing is an algorithm used in reconsiliation which basically looks
         for changes even tiniest bit in virtual DOM and updates it to real DOM
